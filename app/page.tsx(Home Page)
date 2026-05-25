@@ -1,0 +1,25 @@
+import HeroSection from '@/components/sections/HeroSection';
+import BrandStory from '@/components/sections/BrandStory';
+import FeaturedProducts from '@/components/sections/FeaturedProducts';
+import BestSellers from '@/components/sections/BestSellers';
+import LifestyleShowcase from '@/components/sections/LifestyleShowcase';
+import AISection from '@/components/sections/AISection';
+import NewsletterForm from '@/components/ui/NewsletterForm';
+
+export default function HomePage() {
+  return (
+    <>
+      <HeroSection />
+      <BrandStory />
+      <FeaturedProducts />
+      <BestSellers />
+      <LifestyleShowcase />
+      <AISection />
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterForm />
+        </div>
+      </section>
+    </>
+  );
+}
