@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',            // ← এটাই স্ট্যাটিক এক্সপোর্ট সক্রিয় করে
+  // output: 'export',  ← এই লাইনটা ডিলিট বা কমেন্ট করে দিন
   images: {
-    unoptimized: true,         // স্ট্যাটিক সাইটে ইমেজ অপটিমাইজেশন বন্ধ
+    unoptimized: true,
   },
 }
 
